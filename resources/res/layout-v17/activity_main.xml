@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:background="@drawable/bground" android:layout_width="match_parent" android:layout_height="match_parent">
+    <TextView android:textSize="25sp" android:textStyle="bold" android:textColor="#0000" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Instruction" android:textAlignment="center"/>
+    <TextView android:textSize="20sp" android:textColor="#0000" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Please Enter a number between 1 to 10,If your numbber match with hidden number You will winn.So lets start"/>
+    <EditText android:id="@+id/eidtTextId" android:layout_width="match_parent" android:layout_height="wrap_content" android:inputType="number"/>
+    <Button android:id="@+id/buttonId" android:background="@drawable/button" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="30dp" android:text="Generate"/>
+</LinearLayout>
